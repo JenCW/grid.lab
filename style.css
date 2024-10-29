@@ -1,0 +1,77 @@
+  body {
+    background-color: lightgrey;
+    display: grid;
+        font-size: 18px;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+  }
+  
+  .container1{
+    outline: 2px solid green;
+    max-height: 201px;
+    background-color: aqua;
+    margin: 0;
+    grid-template-rows: 1fr auto; 
+    grid-template-columns: repeat(6,16.66%);
+    align-content:space-between;
+  }
+  
+  .nav-button1{
+    width: 200px;
+    height: 60px;
+    top: 67px;
+    left: 60px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 15px;
+    margin: 67px 60px 60px 60px;
+  }
+
+  .nav-button2{
+    width: 200px;
+    height: 60px;
+    top: 67px;
+    left: 300px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: black;
+    color: white
+  }
+
+  .container2{
+    outline:2px solid red;
+    max-height: 436px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    align-content:space-between;
+    padding: 40px;
+  
+    
+
+  }
+  .card-blog1{
+    width: 270px;
+    height: 436px;
+    top: 191px;
+    left: 60px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: rgb(230, 145, 89);
+    grid-template-rows: auto 1fr auto;
+    
+
+ }
+
+ .card-pricing1{
+    background-color: blueviolet;
+    width: 270px;
+    height: 420px;
+    top: 191px;
+    left: 378px;
+    gap: 0px;
+    opacity: 0px;
+
+ }
+
+ 
